@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./dist/server.js",
-    "postinstall": "tyo",
+    "postinstall": "tsc",
     "dev": "nodemon --exec ts-node ./src/server.ts",
     "lint": "tslint -p tsconfig.json -c tslint.json"
   },
