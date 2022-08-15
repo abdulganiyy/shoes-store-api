@@ -10,7 +10,6 @@
     "dev": "nodemon --exec ts-node ./src/server.ts",
     "lint": "tslint -p tsconfig.json -c tslint.json"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
